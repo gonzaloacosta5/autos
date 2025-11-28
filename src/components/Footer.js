@@ -15,7 +15,7 @@ const Footer = () => {
         {/* Logo + Nombre */}
         <div className="flex items-center gap-3">
           <CarFront className="w-7 h-7 text-blue-400" />
-          <span className="text-2xl font-bold text-white">AutoVenta</span>
+          <span className="text-2xl font-bold text-white">Central Automotores</span>
         </div>
 
         {/* Navegación */}
@@ -36,7 +36,7 @@ const Footer = () => {
 
         {/* Derechos */}
         <p className="text-gray-500 text-xs text-center md:text-right">
-          &copy; {new Date().getFullYear()} AutoVenta. Todos los derechos reservados.
+          &copy; {new Date().getFullYear()} Central Automotores. Todos los derechos reservados.
         </p>
       </div>
     </motion.footer>

@@ -57,7 +57,7 @@ const PrivacyPolicyPage = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.5 }}
       >
-        En AutoVenta, valoramos tu privacidad. Esta política detalla cómo recopilamos, utilizamos y protegemos tu información personal mientras navegás nuestro sitio o usás nuestros servicios.
+        En Central Automotores, valoramos tu privacidad. Esta política detalla cómo recopilamos, utilizamos y protegemos tu información personal mientras navegás nuestro sitio o usás nuestros servicios.
       </motion.p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

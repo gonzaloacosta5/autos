@@ -96,7 +96,7 @@ const ContactPage = () => {
               <Mail className="w-8 h-8 text-blue-600 flex-shrink-0" />
               <div>
                 <p className="text-gray-700 font-semibold">Correo Electrónico:</p>
-                <a href="mailto:gonzaloacosta5@outlook.com" className="text-blue-600 hover:underline">gonzaloacosta5@outlook.com</a>
+                <a href="mailto:info@centralautomotores.com.ar" className="text-blue-600 hover:underline">info@centralautomotores.com.ar</a>
               </div>
             </div>
             <div className="flex items-center gap-4">

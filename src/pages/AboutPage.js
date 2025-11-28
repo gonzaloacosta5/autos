@@ -24,7 +24,7 @@ const AboutPage = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.6 }}
       >
-        En AutoVenta, no solo vendemos coches; vendemos sueños, aventuras y la libertad de la carretera. Nos dedicamos a conectar a las personas con el vehículo perfecto que se adapte a su estilo de vida y presupuesto.
+        En Central Automotores, no solo vendemos coches; vendemos sueños, aventuras y la libertad de la carretera. Nos dedicamos a conectar a las personas con el vehículo perfecto que se adapte a su estilo de vida y presupuesto.
       </motion.p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
@@ -72,7 +72,7 @@ const AboutPage = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.6 }}
       >
-        ¡Gracias por elegir AutoVenta! Estamos emocionados de ayudarte a encontrar el coche de tus sueños.
+        ¡Gracias por elegir Central Automotores! Estamos emocionados de ayudarte a encontrar el coche de tus sueños.
       </motion.p>
     </motion.div>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Car, Gauge, DollarSign, Palette } from 'lucide-react';
+import { Gauge, Palette } from 'lucide-react';
 
 const CarCard = ({ car }) => {
   return (
@@ -13,18 +13,20 @@ const CarCard = ({ car }) => {
       whileHover={{ scale: 1.02 }}
     >
       <Link to={`/car/${car.id}`} className="block">
-        <div className="relative h-48 w-full mb-4 rounded-2xl overflow-hidden">
+        <div className="relative w-full h-56 mb-4 rounded-2xl overflow-hidden">
           <img
-            src={car.image}
+            src={car.images[0]} // ✅ usar la primera imagen
             alt={car.name}
-            className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+            className="absolute inset-0 w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
           />
           <div className="absolute top-3 left-3 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">
             {car.year}
           </div>
         </div>
+
         <h3 className="text-2xl font-bold text-gray-900 mb-2">{car.name}</h3>
         <p className="text-gray-600 text-sm mb-4 line-clamp-2">{car.description}</p>
+
         <div className="grid grid-cols-2 gap-3 text-gray-700 text-sm font-medium mb-4">
           <div className="flex items-center gap-2">
             <Gauge className="w-4 h-4 text-blue-500" />
@@ -35,6 +37,7 @@ const CarCard = ({ car }) => {
             <span>{car.color}</span>
           </div>
         </div>
+
         <div className="flex items-center justify-between mt-auto pt-4 border-t border-gray-100">
           <span className="text-3xl font-extrabold text-blue-600">
             ${car.price.toLocaleString()}
