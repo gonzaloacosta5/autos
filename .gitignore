@@ -1,0 +1,10 @@
+# Dependencias
+node_modules/
+
+# Archivos de compilación
+build/
+dist/
+
+# Logs y temporales
+npm-debug.log*
+.DS_Store
